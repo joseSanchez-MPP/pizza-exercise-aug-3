@@ -15,6 +15,8 @@
 		82F5109A24D88DB4000E0391 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82F5109824D88DB4000E0391 /* LaunchScreen.storyboard */; };
 		82F510A524D88DB4000E0391 /* pizzaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F510A424D88DB4000E0391 /* pizzaTests.swift */; };
 		82F510B024D88DB4000E0391 /* pizzaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F510AF24D88DB4000E0391 /* pizzaUITests.swift */; };
+		82F510BE24D893E2000E0391 /* pinar-kucuk-Ae7jQFDTPk4-unsplash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82F510BD24D893E2000E0391 /* pinar-kucuk-Ae7jQFDTPk4-unsplash.jpg */; };
+		82F510C024D8A2BF000E0391 /* giphy.gif in Resources */ = {isa = PBXBuildFile; fileRef = 82F510BF24D8A2BF000E0391 /* giphy.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		82F510AB24D88DB4000E0391 /* pizzaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pizzaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		82F510AF24D88DB4000E0391 /* pizzaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pizzaUITests.swift; sourceTree = "<group>"; };
 		82F510B124D88DB4000E0391 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82F510BD24D893E2000E0391 /* pinar-kucuk-Ae7jQFDTPk4-unsplash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pinar-kucuk-Ae7jQFDTPk4-unsplash.jpg"; sourceTree = "<group>"; };
+		82F510BF24D8A2BF000E0391 /* giphy.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = giphy.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 		82F5108C24D88DB1000E0391 /* pizza */ = {
 			isa = PBXGroup;
 			children = (
+				82F510BF24D8A2BF000E0391 /* giphy.gif */,
+				82F510BD24D893E2000E0391 /* pinar-kucuk-Ae7jQFDTPk4-unsplash.jpg */,
 				82F5108D24D88DB1000E0391 /* AppDelegate.swift */,
 				82F5108F24D88DB1000E0391 /* SceneDelegate.swift */,
 				82F5109124D88DB1000E0391 /* ViewController.swift */,
@@ -232,8 +238,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82F510C024D8A2BF000E0391 /* giphy.gif in Resources */,
 				82F5109A24D88DB4000E0391 /* LaunchScreen.storyboard in Resources */,
 				82F5109724D88DB4000E0391 /* Assets.xcassets in Resources */,
+				82F510BE24D893E2000E0391 /* pinar-kucuk-Ae7jQFDTPk4-unsplash.jpg in Resources */,
 				82F5109524D88DB1000E0391 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
